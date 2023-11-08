@@ -1,7 +1,5 @@
 name: genezio-placeholder-project-name
 region: genezio-placeholder-region
 cloudProvider: genezio
-classes:
-  - path: test.ts
-    type: jsonrpc
-    methods: []
+scripts:
+  preBackendDeploy: npm i
